@@ -16,7 +16,7 @@ const fields = [ 'fields=name.*'
                 ,'staffOrganisationAssociations.emails.value'
               ];
 
-const apiKey = 'ff351541-9f44-48b8-a9c3-d05bad46a325';
+const apiKey = '';
 
 const itemsLens = R.lensPath(['items']);
 const firstNameLens = R.lensPath(['name','firstName']);
